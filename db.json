@@ -1,0 +1,40 @@
+{
+  "sprites": [
+    {
+      "id": "a418",
+      "name": "blub",
+      "image_url": "./assets/dudeMonster/dudeMonster.png",
+      "image_url1": "./assets/dudeMonster/dudeMonsterIdle4.png",
+      "image_url2": "./assets/dudeMonster/dudeMonsterLeft4.png",
+      "image_url3": "./assets/dudeMonster/dudeMonsterRight4.png",
+      "image_url4": "./assets/dudeMonster/dudeMonsterClimb4.png",
+      "height": "90",
+      "width": "90",
+      "description": "lil blub"
+    },
+    {
+      "id": "a955",
+      "name": "snoob",
+      "image_url": "./assets/owletMonster/owletMonster.png",
+      "image_url1": "./assets/owletMonster/owletMonsterIdle4.png",
+      "image_url2": "./assets/owletMonster/owletMonsterLeft4.png",
+      "image_url3": "./assets/owletMonster/owletMonsterRight4.png",
+      "image_url4": "./assets/owletMonster/owletMonsterClimb4.png",
+      "height": "90",
+      "width": "90",
+      "description": "lil snoob"
+    },
+    {
+      "id": "99dd",
+      "name": "pinky",
+      "image_url": "./assets/pinkMonster/pinkMonster.png",
+      "image_url1": "./assets/pinkMonster/pinkMonsterIdle4.png",
+      "image_url2": "./assets/pinkMonster/pinkMonsterLeft4.png",
+      "image_url3": "./assets/pinkMonster/pinkMonsterRight4.png",
+      "image_url4": "./assets/pinkMonster/pinkMonsterClimb4.png",
+      "height": "90",
+      "width": "90",
+      "description": "lil pinky"
+    }
+  ]
+}

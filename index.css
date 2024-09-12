@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family: "Planes_ValMore";
+    src: url("./assets/Font/Planes_ValMore.ttf") format("truetype");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFFBF1; /* Pastel cream background */
+    margin: 0;
+    font-family: 'Planes_ValMore', monospace; /* Monaco font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px; /* Space between title and buttons */
+    color: #A8D5BA; /* Pastel green */
+}
+
+h1 {
+    font-size: 3em; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+    color: #A8D5E2; /* Pastel blue */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+button {
+    margin: 5px; /* Space between buttons */
+    background-color: #FFB3BA; /* Pastel pink */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #FFFFFF; /* White text */
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Planes_ValMore', monospace;
+}
+
+button:hover {
+    background-color: #FFDFBA; /* Lighter pastel pink on hover */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+}
+
+canvas {
+    border: 5px solid #FFDAC1; /* Pastel peach border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: #b5d8ea; /* Pastel mint background */
+    margin-top: 20px; /* Space between buttons and canvas */
+    align-self: center; /* Center the canvas */
+}
+
+#canvas {
+    border: 2px solid #FFDAC1; /* Pastel peach border */
+}
+
+.highlight-border {
+    border: 4px solid #f6ca7f; /* Pastel red */
+}
